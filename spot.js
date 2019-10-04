@@ -45,6 +45,12 @@
         .then(() => engine.toText('YOU'))
 
         .then(() => engine.shake())
+         .then(() => engine.toText('陈泽华'))
+
+        .then(() => engine.shake())
+        .then(() => engine.toText('I♥YOU'))
+
+        .then(() => engine.shake())
 
         .then(() => engine.toText('2019.10.05'))
 
